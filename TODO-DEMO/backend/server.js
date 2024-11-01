@@ -1,6 +1,5 @@
 import express from "express";
 import { connectDB } from "./db/connection.js";
-import Todo from "./models/todo.model.js";
 import dotenv from "dotenv";
 import todosRoutes from "./routes/todos.route.js"
 
