@@ -1,10 +1,10 @@
 import React from "react";
-import QuizComponent from "./components/Quiz.jsx";
+import Quiz from "./components/Quiz.jsx";
 
 function App() {
   return (
     <>
-      <QuizComponent />
+      <Quiz />
     </>
   );
 }

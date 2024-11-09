@@ -6,6 +6,5 @@ const questionSchema = new Schema({
   category: String,
 });
 
-const Question = mongoose.model("Question", questionSchema);
+export const Question = mongoose.model("Question", questionSchema);
 
-export default Question;
