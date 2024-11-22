@@ -31,7 +31,7 @@ export const createQuestion = async (req, res) => {
     await newQuestion.save();
     res.status(201).json({ success: true, data: newQuestion });
   } catch (error) {
-    console.log("Error in create question:: ", error.message);
+    console.log("Error in create question: ", error.message);
     res.status(500).json({ success: false, message: "Server Error" });
   }
 };
